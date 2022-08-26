@@ -32,6 +32,7 @@
     <link href="css/swiper.css" rel="stylesheet">
     <link href="css/magnific-popup.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/counter.css">
 
     <!-- Favicon  -->
     <link rel="icon" href="images/phone.png">
@@ -108,6 +109,12 @@
                             Animation Studio focusing on developing Customized and Generic Web Applications, Mobile
                             Applications, Animation Movies, and Game Development.
                         </p>
+
+                        <div class="flipper" data-datetime="2024-06-30 11:59:59" data-template="ddd|HH|ii|ss"
+                            data-labels="Days|Hours|Minutes|Seconds" data-reverse="true" id="myper">
+                            <!-- <a href="https://www.jqueryscript.net/tags.php?/Flip/">Flip</a> -->
+                        </div>
+
                         <!-- <a class="btn-solid-lg" href="#your-link"><i class="fab fa-apple"></i>DOWNLOAD</a>-->
                         <a class="btn-solid-lg" href="shazzad-resume.pdf" target="_blank">Resume</a>
                     </div> <!-- end of text-container -->
@@ -797,6 +804,12 @@
     <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
     <script src="js/scripts.js"></script> <!-- Custom scripts -->
     <script src="https://kit.fontawesome.com/de87ddbdd3.js" crossorigin="anonymous"></script>
+    <script src="js/jquery.flipper-responsive.js"></script>
+    <script>
+        $(function () {
+            $('#myFlipper').flipper('init');
+        });
+    </script>
 </body>
 
 </html>
