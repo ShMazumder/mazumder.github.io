@@ -27,9 +27,10 @@ You can click on the links to explore my research, projects, and blog.
 I am open to participate in collaborative work regarding research and development. 
 Feel free to connect on LinkedIn or drop a line at shmazumder23@gmail.com.";
 
-    $headers = 'From: S.h. Mazumder <' . $email . '>' . PHP_EOL .
-        'Reply-To: S.h. Mazumder <' . $email . '>' . PHP_EOL .
-        'X-Mailer: PHP/' . phpversion();
+    $headers = 
+'From: S.h. Mazumder <' . $email . '>';// . PHP_EOL .
+// 'Reply-To: S.h. Mazumder <' . $email . '>' . PHP_EOL .
+// 'X-Mailer: PHP/' . phpversion();
 
     //Send email
     $sent = mail($to, $subject, $message, $headers);
