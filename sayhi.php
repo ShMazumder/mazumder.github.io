@@ -62,6 +62,11 @@ Feel free to connect on LinkedIn or drop a line at shmazumder23@gmail.com.";
         <h1>Oops! Something went south...</h1>
     <?php endif;  ?>
 
+    <script>
+        setTimeout(function(){
+            location.href = "index.html";
+        }, 5000);
+    </script>
 </body>
 
 </html>
