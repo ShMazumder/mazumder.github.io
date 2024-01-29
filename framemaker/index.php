@@ -170,7 +170,7 @@ $photo_url = isset($_GET['photo_url']) ? $_GET['photo_url'] : "";
             border-radius: 25px; */
 
             position: absolute;
-    top: 13px;
+    top: 10px;
     left: 66px;
     width: 365px;
     height: 365px;
@@ -383,7 +383,7 @@ $photo_url = isset($_GET['photo_url']) ? $_GET['photo_url'] : "";
                 border-radius: 25px; */
 
                 position: absolute;
-    top: 13px;
+    top: 10px;
     left: 66px;
     width: 365px;
     height: 365px;
