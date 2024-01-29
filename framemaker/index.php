@@ -374,13 +374,20 @@ $photo_url = isset($_GET['photo_url']) ? $_GET['photo_url'] : "";
             }
 
             .invitation_card_background .main_image {
-                position: absolute;
+                /* position: absolute;
                 margin: auto;
                 top: 115px;
                 left: 100px;
                 width: 290px;
                 height: 290px;
-                border-radius: 25px;
+                border-radius: 25px; */
+
+                position: absolute;
+    top: 13px;
+    left: 66px;
+    width: 365px;
+    height: 365px;
+    margin: auto;
             }
 
             .invitation_card_background .frame_image {
