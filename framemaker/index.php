@@ -518,7 +518,7 @@ $photo_url = isset($_GET['photo_url']) ? $_GET['photo_url'] : "";
             <div style="position:absolute; " class="group-1">
                 <!-- IMAGE -->
                 <div style="" class="main_image">
-                    <img src="<?= strlen($photo_url) ? $photo_url : "assets/image/click_upload.jpeg" ?>" class="adjust_image invitee_photo_url" style="border-radius: 50%;">
+                    <img src="<?= strlen($photo_url) ? $photo_url : "assets/image/click.jpeg" ?>" class="adjust_image invitee_photo_url" style="border-radius: 50%; cursor:pointer;">
                 </div>
 
                 <!-- IMAGE FRAME -->
@@ -527,16 +527,16 @@ $photo_url = isset($_GET['photo_url']) ? $_GET['photo_url'] : "";
                 </div>
 
                 <!-- IMAGE 2 -->
-                <div style="display: none" class="second_image">
+                <!-- <div style="display: none" class="second_image">
                     <img src='assets/image/logo.png' class="photo_url" style="width:100%; ">
-                </div>
+                </div> -->
 
                 <!-- NAME TITLE -->
-                <div style="display: none;">
+                <!-- <div style="display: none;">
                     <div class="name_en_title text-dark" style="">
 
                     </div>
-                </div>
+                </div> -->
             </div>
 
 
