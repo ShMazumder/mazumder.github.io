@@ -499,7 +499,7 @@ $photo_url = isset($_GET['photo_url']) ? $_GET['photo_url'] : "";
             }
         </style>
         <div>
-            <img class="frame frame-active img-thumbnail mx-1 p-2 border-2" src="assets/frames/frame-1.png" width="160" alt="">
+            <img class="frame frame-active img-thumbnail mx-1 p-2 border-2" src="assets/frames/frame-2.png" width="160" alt="">
         </div>
 
         <!-- <div>
@@ -523,7 +523,7 @@ $photo_url = isset($_GET['photo_url']) ? $_GET['photo_url'] : "";
 
                 <!-- IMAGE FRAME -->
                 <div style="" class="frame_image">
-                    <img src="assets/frames/frame-1.png" class="photo_frame" style="width:100%;">
+                    <img src="assets/frames/frame-2.png" class="photo_frame" style="width:100%;">
                 </div>
 
                 <!-- IMAGE 2 -->
